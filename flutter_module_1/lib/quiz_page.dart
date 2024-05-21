@@ -12,16 +12,16 @@ class QuizPage extends StatefulWidget {
 
 class _QuizPageState extends State<QuizPage> {
   List<Question> questions = [
-    Question('fransanın başkenti neresidir?', ['Paris', 'London', 'Berlin', 'Madrid'], 0),
-    Question('"To Kill a Mockingbird" yazarı kimdir?', ['Harper Lee', 'Mark Twain', 'Ernest Hemingway', 'F. Scott Fitzgerald'], 0),
-    Question('Düşünen Adam heykelini kim yaptı? ', ['Salvador','Picasso','Rodin','Neiman'], 2),
-    Question('Gece Nöbetini hangi sanatçı çizmiştir?',['Rubens', 'Van Eyck','Gainsborough', 'Rembrandt'],3),
-    Question('Ahtapotun kaç kalbi var?',['3','4','5','7'] ,0),
-    Question('İnsan yapımı gazlı içecekleri kim icat etti?', ['emile berlin','Rutherford Appleton','Joseph Priestley','Mark Twain'],2),
-    Question('2001 yılında BBC nin "Yılın Spor Şahsiyeti" kimdi? ', ['David Beckham','Dallas Cowboys','Victoria Azarenka','Joseph Priestley',],0),
-    Question(' Sutopu takımında kaç oyuncu var?', ['3','5','6','7'], 3),
-    Question('2020 itibariyle, Snookers Dünya Şampiyonasını kazanan son Galli adam kimdi? ', ['Garbiñe Muguruza','Mark Williams','Rutherford Appleton','Joseph Priestley'],1),
-    Question('İlk bilgisayar animasyonları nerede üretildi? ', ['Rutherford Appleton Laboratuvarı','İngiltere','Fransa','Almanya'],0),
+    Question('1)Fransanın başkenti neresidir?', ['Paris', 'London', 'Berlin', 'Madrid'], 0),
+    Question('2)"To Kill a Mockingbird" yazarı kimdir?', ['Harper Lee', 'Mark Twain', 'Ernest Hemingway', 'F. Scott Fitzgerald'], 0),
+    Question('3)Düşünen Adam heykelini kim yaptı? ', ['Salvador','Picasso','Rodin','Neiman'], 2),
+    Question('4)Gece Nöbetini hangi sanatçı çizmiştir?',['Rubens', 'Van Eyck','Gainsborough', 'Rembrandt'],3),
+    Question('5)Ahtapotun kaç kalbi var?',['3','4','5','7'] ,0),
+    Question('6)İnsan yapımı gazlı içecekleri kim icat etti?', ['emile berlin','Rutherford Appleton','Joseph Priestley','Mark Twain'],2),
+    Question('7)2001 yılında BBC nin "Yılın Spor Şahsiyeti" kimdi? ', ['David Beckham','Dallas Cowboys','Victoria Azarenka','Joseph Priestley',],0),
+    Question('8)Sutopu takımında kaç oyuncu var?', ['3','5','6','7'], 3),
+    Question('9)2020 itibariyle, Snookers Dünya Şampiyonasını kazanan son Galli adam kimdi? ', ['Garbiñe Muguruza','Mark Williams','Rutherford Appleton','Joseph Priestley'],1),
+    Question('10)İlk bilgisayar animasyonları nerede üretildi? ', ['Rutherford Appleton Laboratuvarı','İngiltere','Fransa','Almanya'],0),
   ];
   
   int currentQuestionIndex = 0;
